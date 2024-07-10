@@ -9,6 +9,7 @@ Repository ini berisi tentang website yang dapat menampilkan status server Minec
 - Jika server offline maka akan ditampikan pada card
 - Loading :v
 - Pakai Bootstrap :V
+- Tombol direct ke Minecraft langsung (Jadi user bisa join server tanpa masukin IP dan Port)
 
 # Cara Menggunakan dan Menjalankan Website
 
@@ -24,6 +25,7 @@ const response = await fetch(
 // Uraikan respon JSON jadi objek javascript yang bisa kamu gunakan
 const data = await response.json();
 ```
+Selengkapnya cek [disini](https://api.mcsrvstat.us/)
 
 4. Ubah kode pada card yang berisi informasi server dengan mengurai respon JSON jadi objek javascript (kalo ngerti :v). Kamu bisa edit pada block program jika server online maupun offline
 

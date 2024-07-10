@@ -1,7 +1,7 @@
 // Fungsi getServerStatus()
 async function getServerStatus() {
     // Panggil API Minecraft
-    const response = await fetch(`https://api.mcsrvstat.us/bedrock/3/play.venitymc.com:19132`);
+    const response = await fetch(`https://api.mcsrvstat.us/bedrock/3/namaserver.com:port`);
     // Uraikan respon JSON jadi objek javascript yang bisa kamu gunakan
     const data = await response.json();
 
